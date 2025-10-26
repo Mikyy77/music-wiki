@@ -1,0 +1,875 @@
+{
+    "uuid": "cc197bad-dc9c-440d-a5b5-d52ba2e14234",
+    "name": "Coldplay",
+    "comment": "Greater London",
+    "type": "Group",
+    "founded": "1996-09",
+    "founded_in": "London",
+    "area": "United Kingdom",
+    "isni_code": "000000011551394X",
+    "rating_percent": "82",
+    "rating_value": 4.1,
+    "genres": [
+        "alternative rock",
+        "pop",
+        "pop rock",
+        "post-britpop",
+        "rock"
+    ],
+    "other_tags": [
+        "big music",
+        "british",
+        "uk"
+    ],
+    "external_links": [
+        {
+            "name": "Official homepage",
+            "url": "http://www.coldplay.com/"
+        },
+        {
+            "name": "Blog",
+            "url": "http://coldplay.tumblr.com/"
+        },
+        {
+            "name": "@coldplay",
+            "url": "https://twitter.com/coldplay"
+        },
+        {
+            "name": "@coldplay",
+            "url": "https://www.instagram.com/coldplay/"
+        },
+        {
+            "name": "@coldplay",
+            "url": "https://www.threads.com/@coldplay"
+        },
+        {
+            "name": "7digital",
+            "url": "https://uk.7digital.com/artist/coldplay"
+        },
+        {
+            "name": "7digital",
+            "url": "https://us.7digital.com/artist/coldplay"
+        },
+        {
+            "name": "AllMusic",
+            "url": "https://www.allmusic.com/artist/mn0000775877"
+        },
+        {
+            "name": "Amazon Music UK",
+            "url": "https://music.amazon.co.uk/artists/B000QKGN8W"
+        },
+        {
+            "name": "Amazon Music US",
+            "url": "https://music.amazon.com/artists/B000QKGN8W"
+        },
+        {
+            "name": "Apple Music GB",
+            "url": "https://music.apple.com/gb/artist/471744"
+        },
+        {
+            "name": "Bandsintown",
+            "url": "https://www.bandsintown.com/a/99"
+        },
+        {
+            "name": "Beatport",
+            "url": "https://www.beatport.com/artist/coldplay/162668"
+        },
+        {
+            "name": "BnF Catalogue",
+            "url": "https://catalogue.bnf.fr/ark:/12148/cb140349761"
+        },
+        {
+            "name": "coldplay",
+            "url": "https://myspace.com/coldplay"
+        },
+        {
+            "name": "coldplay",
+            "url": "https://soundcloud.com/coldplay"
+        },
+        {
+            "name": "coldplay",
+            "url": "https://vk.com/coldplay"
+        },
+        {
+            "name": "coldplay",
+            "url": "https://www.facebook.com/coldplay"
+        },
+        {
+            "name": "Coldplay",
+            "url": "https://www.last.fm/music/Coldplay"
+        },
+        {
+            "name": "Discogs",
+            "url": "https://www.discogs.com/artist/29735"
+        },
+        {
+            "name": "DNB",
+            "url": "https://d-nb.info/gnd/6501726-2"
+        },
+        {
+            "name": "Genius",
+            "url": "https://genius.com/artists/Coldplay"
+        },
+        {
+            "name": "IdRef",
+            "url": "https://www.idref.fr/086228749"
+        },
+        {
+            "name": "IMDb",
+            "url": "https://www.imdb.com/name/nm1095892/"
+        },
+        {
+            "name": "IMVDb",
+            "url": "https://imvdb.com/n/coldplay"
+        },
+        {
+            "name": "Jaxsta",
+            "url": "https://jaxsta.com/profile/4e482690-dc02-4c85-9fbf-28907c20b928"
+        },
+        {
+            "name": "Juno Download",
+            "url": "https://www.junodownload.com/artists/Coldplay/releases/"
+        },
+        {
+            "name": "Library of Congress",
+            "url": "https://id.loc.gov/authorities/names/no99089189"
+        },
+        {
+            "name": "Live Nation UK",
+            "url": "https://www.livenation.co.uk/artist-8720"
+        },
+        {
+            "name": "LiveFans",
+            "url": "https://www.livefans.jp/artists/2236"
+        },
+        {
+            "name": "mora",
+            "url": "https://mora.jp/artist/254708/"
+        },
+        {
+            "name": "mora",
+            "url": "https://mora.jp/artist/503134/"
+        },
+        {
+            "name": "mora",
+            "url": "https://mora.jp/artist/1468413/"
+        },
+        {
+            "name": "mora",
+            "url": "https://mora.jp/artist/1473572/"
+        },
+        {
+            "name": "mora",
+            "url": "https://mora.jp/artist/1992749/"
+        },
+        {
+            "name": "MusicMoz",
+            "url": "https://musicmoz.org/Bands_and_Artists/C/Coldplay/"
+        },
+        {
+            "name": "Musik-Sammler",
+            "url": "https://www.musik-sammler.de/artist/3209/"
+        },
+        {
+            "name": "Musixmatch",
+            "url": "https://www.musixmatch.com/artist/Coldplay"
+        },
+        {
+            "name": "Muziekweb",
+            "url": "https://www.muziekweb.nl/Link/M00000124920/POPULAR/"
+        },
+        {
+            "name": "Muzikum",
+            "url": "http://muzikum.eu/en/122-3547/coldplay/lyrics.html"
+        },
+        {
+            "name": "Napster US",
+            "url": "https://us.napster.com/artist/coldplay"
+        },
+        {
+            "name": "Open Library",
+            "url": "https://openlibrary.org/authors/OL2741867A/"
+        },
+        {
+            "name": "Qobuz",
+            "url": "https://www.qobuz.com/gb-en/interpreter/coldplay/40226"
+        },
+        {
+            "name": "Rate Your Music",
+            "url": "https://rateyourmusic.com/artist/coldplay"
+        },
+        {
+            "name": "SecondHandSongs",
+            "url": "https://secondhandsongs.com/artist/10590"
+        },
+        {
+            "name": "setlist.fm",
+            "url": "https://www.setlist.fm/setlists/coldplay-3d6bde3.html"
+        },
+        {
+            "name": "Songkick",
+            "url": "https://www.songkick.com/artists/197928"
+        },
+        {
+            "name": "Spirit of Rock",
+            "url": "https://www.spirit-of-rock.com/en/band/Coldplay"
+        },
+        {
+            "name": "Stream at Deezer",
+            "url": "https://www.deezer.com/artist/892"
+        },
+        {
+            "name": "Stream at Spotify",
+            "url": "https://open.spotify.com/artist/4gzpq5DPGxSnKTe4SA8HAU"
+        },
+        {
+            "name": "Stream at Tidal",
+            "url": "//tidal.com/artist/8812"
+        },
+        {
+            "name": "Stream at Yandex",
+            "url": "https://music.yandex.com/artist/671"
+        },
+        {
+            "name": "Stream at YouTube Music",
+            "url": "https://music.youtube.com/channel/UCIaFw5VBEK8qaW6nRpx_qnw"
+        },
+        {
+            "name": "Ticketmaster US",
+            "url": "https://www.ticketmaster.com/artist/806431"
+        },
+        {
+            "name": "TikTok",
+            "url": "https://www.tiktok.com/@coldplay"
+        },
+        {
+            "name": "VIAF: 157712849",
+            "url": "https://viaf.org/viaf/157712849/"
+        },
+        {
+            "name": "Weibo",
+            "url": "https://www.weibo.com/7502254158"
+        },
+        {
+            "name": "WhoSampled",
+            "url": "https://www.whosampled.com/Coldplay/"
+        },
+        {
+            "name": "Wikidata: Q45188",
+            "url": "//www.wikidata.org/wiki/Q45188"
+        },
+        {
+            "name": "YouTube",
+            "url": "//www.youtube.com/channel/UCDPM_n1atn2ijUwHd0NNRQw"
+        },
+        {
+            "name": "YouTube",
+            "url": "//www.youtube.com/channel/UCfJOsk44wjzby9H64jDd4Nw"
+        }
+    ],
+    "wikipedia_text": null,
+    "wikipedia_note": "Wikipedia extract not included (loaded dynamically)",
+    "releases": [
+        {
+            "year": "2000",
+            "title": "Parachutes",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/1dc4c347-a1db-32aa-b14f-bc9cc507b843"
+        },
+        {
+            "year": "2002",
+            "title": "A Rush of Blood to the Head",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/120c786d-a3b2-3c19-b4ff-2b7b3b4435bf"
+        },
+        {
+            "year": "2005",
+            "title": "X&amp;Y",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/c50b180a-12c9-3153-8ba5-eac6a6537d6f"
+        },
+        {
+            "year": "2008",
+            "title": "Viva la Vida or Death and All His Friends",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/a1084754-8bb5-3ebc-bbd2-6a27d48e798a"
+        },
+        {
+            "year": "2011",
+            "title": "Mylo Xyloto",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/61b7b6cd-86a6-4728-9478-b58c93bca8fd"
+        },
+        {
+            "year": "2014",
+            "title": "Ghost Stories",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/9c5aa9d2-068b-4626-b352-ae6f4f4e0b15"
+        },
+        {
+            "year": "2015",
+            "title": "A Head Full of Dreams",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/27da3ef8-f3b0-47bf-898d-9bdf4af7fc04"
+        },
+        {
+            "year": "2019",
+            "title": "Everyday Life",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/e45c32be-8e8b-48b5-8bbb-60f1a3115532"
+        },
+        {
+            "year": "2021",
+            "title": "Music of the Spheres",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/c169f440-90bf-4a0b-aa6a-c83072bd7eed"
+        },
+        {
+            "year": "2024",
+            "title": "Moon Music",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/3988c875-b35f-4c3e-b143-ccb484d45347"
+        },
+        {
+            "year": "2007",
+            "title": "Parachutes / A Rush of Blood to the Head / Live 2003 DVD",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/c897c00b-6f62-4545-afdc-318f914251b1"
+        },
+        {
+            "year": "2010",
+            "title": "Viva La Vida / X&amp;Y",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/3d950904-df38-4dac-b677-8708b971357a"
+        },
+        {
+            "year": "2012",
+            "title": "Coldplay 4 CD Catalogue Set",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/5613f3e7-0b79-425d-bbd1-d685eeaf243f"
+        },
+        {
+            "year": "—",
+            "title": "Essentials",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/b04f5990-8f60-4865-89a0-c415a9779bf0"
+        },
+        {
+            "year": "2003",
+            "title": "Live 2003",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/470a94fd-1da8-3cb3-bc96-1f3a82cc3579"
+        },
+        {
+            "year": "2009",
+            "title": "LeftRightLeftRightLeft",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/64ad146f-304f-3353-9fc2-d21833a830ff"
+        },
+        {
+            "year": "2012",
+            "title": "Live 2012",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/2f215175-266c-4945-b622-8c4f8cb0d4fb"
+        },
+        {
+            "year": "2014",
+            "title": "Ghost Stories Live 2014",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/233bd660-b3a0-478e-a60c-056e2aeeddd7"
+        },
+        {
+            "year": "2016",
+            "title": "2016-06-26: Glastonbury Festival, Worthy Farm, Pilton, England",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/f43e3130-2dec-4074-9798-49510cfcccfe"
+        },
+        {
+            "year": "2016",
+            "title": "Live in Nice",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/2056242b-bba6-49a5-9f08-635f7776c760"
+        },
+        {
+            "year": "2018",
+            "title": "Live in Buenos Aires",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/29b926ef-2080-44e9-b9e0-2ed6c25799f9"
+        },
+        {
+            "year": "2018",
+            "title": "Love in Tokyo",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/5b62cd37-f8bf-41fd-ac67-14b967453d00"
+        },
+        {
+            "year": "1998",
+            "title": "Safety EP",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/68951196-3176-3d8b-a46a-c848cba7f0f3"
+        },
+        {
+            "year": "1999",
+            "title": "The Blue Room E.P.",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/859bac1f-fbd1-333e-af66-f1423af39a87"
+        },
+        {
+            "year": "2001",
+            "title": "Mince Spies",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/18a284e6-c921-3f87-9d3d-b3b1aefa7e62"
+        },
+        {
+            "year": "2006",
+            "title": "X&amp;Y Bonus",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/706867ac-fcba-416f-b97f-0fd735dcdbe0"
+        },
+        {
+            "year": "2008",
+            "title": "Prospekt’s March EP",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/c11617f3-d81f-3866-acdd-6b8dc2d63f44"
+        },
+        {
+            "year": "2017",
+            "title": "Kaleidoscope EP",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/04dbe014-a249-4ba9-895a-e000954ad14b"
+        },
+        {
+            "year": "2019",
+            "title": "Champion of the World / Daddy",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/644b7bd4-350f-45c6-ac6d-404c471f2561"
+        },
+        {
+            "year": "2020",
+            "title": "Coldplay: Reimagined",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/e232757c-b404-4bab-8a2e-e77f33395827"
+        },
+        {
+            "year": "2021",
+            "title": "Infinity Station Sessions",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/4fe52ad4-452f-4956-8fff-da3b87d24db6"
+        },
+        {
+            "year": "2001",
+            "title": "Trouble: Norwegian Live EP",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/0713358c-e232-3172-97b2-67f831d85857"
+        },
+        {
+            "year": "2011",
+            "title": "iTunes Festival: London 2011",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/83738c84-18a0-40ee-ba90-e6ec95b70b4c"
+        },
+        {
+            "year": "2011",
+            "title": "UNSTAGED: Live in Madrid",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/c4cf266b-3b67-42d0-a2bb-3ce60b025b5a"
+        },
+        {
+            "year": "2016",
+            "title": "Live From Spotify London",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/fad2b9de-08ff-4a30-ae8a-70ace6660fcd"
+        },
+        {
+            "year": "2021",
+            "title": "Live From Climate Pledge Arena",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/f46f8cb1-db5f-4dd6-8cb6-c59c1965f775"
+        },
+        {
+            "year": "2017",
+            "title": "Something Just Like This (remixes)",
+            "artist": "The Chainsmokers",
+            "url": "https://musicbrainz.org/release-group/9f102617-4d63-426d-a5c9-c8f1eb6403eb"
+        },
+        {
+            "year": "1999",
+            "title": "Brothers &amp; Sisters",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/2cbd8f25-00e0-387b-bc14-d387d6146e39"
+        },
+        {
+            "year": "2000",
+            "title": "Shiver",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/b44c2e2b-b350-33db-a88f-ab91e2475529"
+        },
+        {
+            "year": "2000",
+            "title": "Yellow",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/8049edc0-0bf7-319c-a9b3-ae9922fc0160"
+        },
+        {
+            "year": "2000",
+            "title": "Trouble",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/6d6fab8d-2657-3f50-b87f-0e6a62118b10"
+        },
+        {
+            "year": "2001",
+            "title": "Don’t Panic",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/7f916a6f-9480-3a0f-b9e1-5682e15aba24"
+        },
+        {
+            "year": "2002",
+            "title": "In My Place",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/b59aa7e0-2571-37a5-82ac-debe6abc9b9b"
+        },
+        {
+            "year": "2002",
+            "title": "The Scientist",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/941f4fc8-6eb2-346f-8527-52f634944de7"
+        },
+        {
+            "year": "2002",
+            "title": "Clocks",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/6cbada78-bb2d-3f91-914c-caa11f8879cb"
+        },
+        {
+            "year": "2003",
+            "title": "God Put a Smile Upon Your Face",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/179fcc9d-1e94-3060-a438-2fdb8fefb748"
+        },
+        {
+            "year": "2003",
+            "title": "2000 Miles",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/a905af66-82d7-4765-874e-d696381a1cbf"
+        },
+        {
+            "year": "2005",
+            "title": "Speed of Sound",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/c08a8841-a4f5-3737-94af-a21b6403e661"
+        },
+        {
+            "year": "2005",
+            "title": "Murder",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/1ed86191-279f-431e-b535-86998fae6869"
+        },
+        {
+            "year": "2005",
+            "title": "Proof",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/8817bb1f-c600-4210-b14d-f15f95edea7e"
+        },
+        {
+            "year": "2005",
+            "title": "Things I Don’t Understand",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/a723b96a-4462-40a8-a123-25d57da4f747"
+        },
+        {
+            "year": "2005",
+            "title": "Fix You",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/7336b1ef-9784-3e3a-9436-9b1bc543b933"
+        },
+        {
+            "year": "2005",
+            "title": "Talk",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/2cc618bc-da20-38d5-bb0b-838b8ef829d0"
+        },
+        {
+            "year": "2006",
+            "title": "The Hardest Part",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/b1f71149-a860-4c02-9b5e-b55a781a0b82"
+        },
+        {
+            "year": "2006",
+            "title": "What If",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/78f00e96-d6ca-40f2-a94c-924bef64b1c0"
+        },
+        {
+            "year": "2008",
+            "title": "Violet Hill",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/98baa12c-0430-37f8-b4c7-98fc2c9cb32f"
+        },
+        {
+            "year": "2008",
+            "title": "Viva la Vida",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/846eecd7-c7fd-38fd-8843-5e6d812208f9"
+        },
+        {
+            "year": "2008",
+            "title": "A Spell a Rebel Yell",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/61122019-23b9-4429-a63d-45eb052c7b08"
+        },
+        {
+            "year": "2008",
+            "title": "Lost!",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/d5e18344-6d57-38a9-931f-f55af0995177"
+        },
+        {
+            "year": "2008",
+            "title": "Lhuna",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/ed7a9672-91e8-35dc-a6b9-c4bcb0948670"
+        },
+        {
+            "year": "2008",
+            "title": "Life in Technicolor ii",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/185fa212-fc02-3e60-953c-769d8eedab2f"
+        },
+        {
+            "year": "2009",
+            "title": "Strawberry Swing",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/63706893-381c-43e4-ac25-c183e3f1b037"
+        },
+        {
+            "year": "2010",
+            "title": "Christmas Lights",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/2d5d4717-0503-4d3c-8a11-57130387862f"
+        },
+        {
+            "year": "2011",
+            "title": "Every Teardrop Is a Waterfall",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/9c95d32c-7679-4c08-b2bd-a337c46a80ca"
+        },
+        {
+            "year": "2011",
+            "title": "Paradise",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/13f91af7-ba7a-42b5-a15f-4f5eb31aae5d"
+        },
+        {
+            "year": "2011",
+            "title": "Hurts Like Heaven",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/dbf88f06-9b73-4313-a175-7c6f470485b7"
+        },
+        {
+            "year": "2011",
+            "title": "Charlie Brown",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/4d3d0e67-fb38-4b4b-8242-9ec6e1148b2a"
+        },
+        {
+            "year": "2012",
+            "title": "Princess of China",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/fdd6aa86-9b2b-48b6-8e9d-70d89b78db53"
+        },
+        {
+            "year": "2012",
+            "title": "Up With the Birds / U.F.O.",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/b741e761-9f1a-4943-a99c-6e65b7bc971c"
+        },
+        {
+            "year": "2014",
+            "title": "Magic",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/2c75b783-e2ec-462f-9841-85bc3cd0bafa"
+        },
+        {
+            "year": "2014",
+            "title": "Midnight",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/5c329da4-a37a-4d73-afae-0cf1269c9fc1"
+        },
+        {
+            "year": "2014",
+            "title": "A Sky Full of Stars",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/aa4f1215-af04-44c6-8fb9-6e42c68a09f7"
+        },
+        {
+            "year": "2014",
+            "title": "True Love",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/e680b8ae-720d-4360-a3c9-c4368738eac3"
+        },
+        {
+            "year": "2014",
+            "title": "Ink",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/0f5c74c2-92ba-4709-ab05-e87a72330c65"
+        },
+        {
+            "year": "2015",
+            "title": "Adventure of a Lifetime",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/1da5937d-2938-4842-8171-7670ec7efa7a"
+        },
+        {
+            "year": "2015",
+            "title": "Everglow",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/edc6fd57-72e5-4bfa-a310-db8e2aeb0fa8"
+        },
+        {
+            "year": "2016",
+            "title": "Hymn for the Weekend",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/131e3440-2501-4bf2-8997-60aa4fed1fc1"
+        },
+        {
+            "year": "2016",
+            "title": "Up&amp;Up",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/27329da6-b5a4-456c-8deb-993c93e5470e"
+        },
+        {
+            "year": "2016",
+            "title": "A Head Full of Dreams",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/4dd07383-40d3-4e8e-973f-2e7b524a291f"
+        },
+        {
+            "year": "2017",
+            "title": "Something Just Like This",
+            "artist": "The Chainsmokers",
+            "url": "https://musicbrainz.org/release-group/02b26199-03d0-4c64-bffd-84155db3c003"
+        },
+        {
+            "year": "2017",
+            "title": "Hypnotised",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/f12f358e-7cde-4667-8a77-d142794455cf"
+        },
+        {
+            "year": "2017",
+            "title": "Fix you (BSNO remix)",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/01db576c-068f-42d8-851d-9a81f9c5935a"
+        },
+        {
+            "year": "2017",
+            "title": "All I Can Think About Is You",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/d6e18d5a-a0b6-4064-9d85-0519abc87dd0"
+        },
+        {
+            "year": "2017",
+            "title": "A L I E N S",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/7c1bb5f6-89e5-4ff2-8ce2-aa859e8b8fec"
+        },
+        {
+            "year": "2017",
+            "title": "Have Yourself a Merry Little Christmas",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/33c91f60-80e1-4b09-a8cc-256a9d687150"
+        },
+        {
+            "year": "2019",
+            "title": "Orphans / Arabesque",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/ad49298b-6062-4286-b1f9-2145dceff658"
+        },
+        {
+            "year": "2019",
+            "title": "Everyday Life",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/1b4af054-277d-4ba8-a159-84f913af8e59"
+        },
+        {
+            "year": "2019",
+            "title": "Champion of the World",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/3a0e128c-f89c-477e-ba75-98823ffbf79d"
+        },
+        {
+            "year": "2019",
+            "title": "Daddy",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/2fe7bbf9-7d4e-4ad8-90d7-d8163b444a7f"
+        },
+        {
+            "year": "2020",
+            "title": "Flags",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/75a7e18b-ecd4-46e4-8102-fbbbf7e1febc"
+        },
+        {
+            "year": "2021",
+            "title": "Higher Power",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/7348d949-285f-4dff-a19c-3c4ec14d58d0"
+        },
+        {
+            "year": "2021",
+            "title": "Higher Power (acoustic version)",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/01134202-7978-441c-a67b-f5f30c143204"
+        },
+        {
+            "year": "2021",
+            "title": "Coloratura",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/a73c67b8-6967-4620-b8a0-4aaf37c22c32"
+        },
+        {
+            "year": "2021",
+            "title": "Let Somebody Go",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/c2ed9ec5-394d-4aa9-818e-5d31f99a369f"
+        },
+        {
+            "year": "2021",
+            "title": "My Universe",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/6270c4e1-62c7-4502-bbf3-5842f1329d86"
+        },
+        {
+            "year": "2022",
+            "title": "Spotify Singles",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/0b01953e-33ac-44e7-84b5-b60bf36bc45e"
+        },
+        {
+            "year": "2022",
+            "title": "Let Somebody Go (piano version)",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/d64d28f1-6da8-4a19-8a3f-9fc0312de3f2"
+        },
+        {
+            "year": "2022",
+            "title": "Biutyful",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/72d769ef-565a-4efb-aef8-e8da59256b12"
+        },
+        {
+            "year": "2024",
+            "title": "feelslikeimfallinginlove",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/22e406d4-6ef5-4903-beae-da3e3cce1f0c"
+        },
+        {
+            "year": "2024",
+            "title": "WE PRAY",
+            "artist": "Coldplay",
+            "url": "https://musicbrainz.org/release-group/429baa3b-99d9-44b0-aeed-7a00aeb6dfc2"
+        }
+    ],
+    "last_updated": "2025-05-02 19:00 UTC"
+}
