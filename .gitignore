@@ -7,3 +7,17 @@ __pycache__/
 .DS_Store
 .vscode/
 logs/
+parsed_artists
+index_parts
+index_data.json
+source_code.zip
+progress.json
+index_data
+data
+entities
+json
+lucene_index
+wiki_dump.xml.bz2
+wiki_full.xml.bz2
+wiki_dump.xml
+wikidoc.txt
