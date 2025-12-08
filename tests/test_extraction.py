@@ -1,6 +1,3 @@
-#!/usr/bin/env python3
-"""Test improved extraction on sample infobox data"""
-
 import re
 
 # Sample infobox from Jello Biafra Wikipedia page

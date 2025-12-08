@@ -45,16 +45,26 @@ def main():
     total = 0
     filtered_out = 0
     kept = 0
+    duplicates = 0
+    seen_uuids = set()
     
     with open(input_file, 'r') as infile, open(output_file, 'w') as outfile:
         for line in infile:
             total += 1
             record = json.loads(line)
             
+            # Check for duplicates by UUID
+            uuid = record.get('uuid')
+            if uuid in seen_uuids:
+                duplicates += 1
+                print(f"Duplicate: {record['name']} (UUID: {uuid})")
+                continue
+            
             if is_false_positive(record):
                 filtered_out += 1
-                print(f"❌ Filtered: {record['name']} -> {record['title']}")
+                print(f"Filtered: {record['name']} -> {record['title']}")
             else:
+                seen_uuids.add(uuid)
                 kept += 1
                 outfile.write(line)
     
@@ -62,8 +72,9 @@ def main():
     print(f"Total records:     {total:,}")
     print(f"Kept:              {kept:,}")
     print(f"Filtered out:      {filtered_out:,}")
+    print(f"Duplicates:        {duplicates:,}")
     print(f"{'='*60}")
-    print(f"\n✅ Created: {output_file}")
+    print(f"\nCreated: {output_file}")
 
 if __name__ == "__main__":
     main()

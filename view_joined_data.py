@@ -4,7 +4,6 @@ Helper script to view and export the joined Spark data
 """
 
 from pyspark.sql import SparkSession
-import sys
 
 def main():
     spark = SparkSession.builder.appName("ViewJoinedData").getOrCreate()

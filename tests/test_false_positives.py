@@ -1,5 +1,8 @@
-#!/usr/bin/env python3
-"""Test script to verify false positive filtering works correctly."""
+import sys
+import os
+
+# Add parent directory to path
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from wiki_music_extractor import WikiMusicExtractor
 
@@ -80,7 +83,7 @@ def test_false_positives():
     
     for title, text, categories, expected, description in test_cases:
         result = extractor.is_music_related(title, text, categories)
-        status = "✅ PASS" if result == expected else "❌ FAIL"
+        status = "PASS" if result == expected else "FAIL"
         
         if result == expected:
             passed += 1
@@ -93,7 +96,6 @@ def test_false_positives():
     
     print("\n" + "="*80)
     print(f"Results: {passed} passed, {failed} failed out of {len(test_cases)} tests")
-    print(f"False positives filtered during test: {extractor.stats['filtered_false_positives']}")
     
     return failed == 0
 

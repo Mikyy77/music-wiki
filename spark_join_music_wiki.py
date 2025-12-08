@@ -1,9 +1,3 @@
-"""
-Spark Join Script: MusicBrainz + Wikipedia
-Joins your parsed_artists.json (MusicBrainz) with wiki_music.jsonl (Wikipedia)
-based on normalized artist/band names.
-"""
-
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import lower, trim, regexp_replace, col
 
@@ -69,12 +63,12 @@ def main():
         col("url")
     ).show(10, truncate=False)
 
-    print("💾 Saving joined results...")
+    print("Saving joined results...")
     # Save as parquet (much faster and smaller than JSON)
     joined_df.write.mode("overwrite").parquet("data/joined_artists.parquet")
     print("Saved data/joined_artists.parquet")
     
-    # Optionally save a smaller JSON sample for inspection
+    # Save a smaller JSON sample for inspection
     joined_df.limit(100).write.mode("overwrite").json("data/joined_artists_sample.json")
     print("Saved data/joined_artists_sample.json (first 100 records)")
 
@@ -92,17 +86,13 @@ def main():
     print(f"Unique MusicBrainz matched:    {unique_mb_count:,} ({match_rate:.1f}%)")
     print(f"Unique Wikipedia matched:      {unique_wiki_count:,}")
     print(f"Total joined records:          {total_joined:,}")
-    print("\n✅ Output files created:")
-    print("  → data/joined_artists.parquet (main output)")
-    print("  → data/joined_artists_sample.json (100 samples)")
+    print("\nOutput files created:")
+    print("data/joined_artists.parquet (main output)")
+    print("data/joined_artists_sample.json (100 samples)")
     print("======================================================\n")
 
     spark.stop()
-    print("🎉 Join complete!")
-
-
-if __name__ == "__main__":
-    main()
+    print("Join complete!")
 
 if __name__ == "__main__":
     main()

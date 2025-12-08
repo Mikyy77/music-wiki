@@ -1,4 +1,4 @@
-# MusicBrainz & Wikipedia Music Extractor
+# MusicBrainz and Wikipedia Music Extractor
 
 A data extraction and processing pipeline for music entities from MusicBrainz and Wikipedia.
 
@@ -16,6 +16,9 @@ The pipeline uses PySpark for efficient large-scale data processing and joining.
 ```bash
 pip install lxml pyspark
 ```
+
+* python 3.11.10
+* pylucene
 
 ## Pipeline Execution
 
@@ -280,69 +283,6 @@ MusicBrainzExtracter/
 - Spark join uses name normalization for matching
 - False positive filter removes mythological figures, biblical characters, etc.
 
-# False Positive Fix - Summary
-
-## Problem Identified
-
-The wiki_music_extractor.py was extracting many false positives related to bandwidth, telecommunications, and other non-music topics because:
-
-1. **Substring matching on "band"**: The word "band" was being matched as a substring in words like:
-
-   - "bandwidth"
-   - "broadband"
-   - "husband"
-   - "abandon"
-   - "frequency band"
-
-2. **Weak validation**: Pages were classified as music-related if they contained ANY music signal, even if categories clearly indicated non-music content.
-
-3. **No exclusion logic**: There was no mechanism to filter out obvious false positive categories like "telecommunication", "signal processing", etc.
-
-## False Positive Examples Found
-
-- "Bandwidth (signal processing)" - classified as type: "band"
-- "Wireless broadband" - classified as type: "band"
-- "Abandonment of an action" - legal term
-- "Abandonment in marine insurance" - legal term
-- Various other abandonment-related legal pages
-
-## Solutions Implemented
-
-### 1. Removed "band" from basic music_signals list (line 45)
-
-```python
-# Before:
-self.music_signals = ['music', 'song', 'album', 'band', 'artist', 'composer', 'recording', 'instrument']
-
-# After:
-self.music_signals = ['music', 'song', 'album', 'artist', 'composer', 'recording', 'instrument']
-```
-
-### 2. Added exclusion patterns (lines 47-54)
-
-Added a list of category keywords that indicate non-music content:
-
-```python
-self.exclusion_patterns = [
-    'telecommunication', 'signal processing', 'wireless', 'broadband', 'bandwidth',
-    'radio technology', 'internet', 'networking', 'legal', 'marine', 'railway',
-    'physics', 'engineering', 'computer', 'software', 'television technology',
-    'broadcasting', 'spectrum management', 'frequency', 'radio spectrum'
-]
-```
-
-### 3. Enhanced is_music_related() function with word boundary matching (lines 195-253)
-
-**Key improvements:**
-
-- **Early exclusion check**: Reject pages with exclusion patterns in categories
-- **Word boundary matching**: Use `\bband\b` regex to match "band" as a complete word only
-- **Stronger validation for "band" keyword**: If only "band" is found (no other music signals), require at least one music-specific category as evidence
-- **Proper keyword matching**: Apply word boundaries specifically to the "band" keyword in title checks
-
-### 4. Added statistics tracking (line 56 & 375)
-
-Track number of false positives filtered out and display in stats output.
 
 ## Testing
 
@@ -356,7 +296,7 @@ Created `test_false_positives.py` with 9 test cases covering:
 - ✅ Legitimate music bands (accepted)
 - ✅ Music artists (accepted)
 
-**All 9 tests pass** ✅
+**All 9 tests pass**
 
 ## Impact
 
@@ -376,8 +316,6 @@ To apply these fixes to your existing data:
 3. Optionally add more exclusion patterns if you discover other false positive categories
 
 ## Usage
-
-The extractor usage remains the same:
 
 ```bash
 python wiki_music_extractor.py --dump path/to/enwiki-latest-pages-articles.xml.bz2
@@ -413,18 +351,17 @@ False positives filtered: Z
 - **Unique MusicBrainz artists matched**: 1,036 (24.7% of total)
 - **Unique Wikipedia pages matched**: 919
 
-#### Filtered Dataset (Recommended)
+#### Filtered Dataset
 
 - **High-quality matches**: 2,158 records
 - **False positives removed**: 9
   - Apollo (Greek god)
   - David (Biblical king)
   - 7 other non-music entities
-- **Accuracy**: 99.6%
 
 ### Output Files
 
-1. **`data/joined_artists_filtered.jsonl`** ✅ **RECOMMENDED**
+1. **`data/joined_artists_filtered.jsonl`**
 
    - 2,158 clean, verified matches
    - One JSON object per line
@@ -466,9 +403,9 @@ Each record contains:
 - Metallica, Black Sabbath, Iron Maiden
 - ABBA, Bee Gees, Fleetwood Mac
 
-### Match Rate Analysis
+### Match Rate
 
-**24.7% match rate is expected** because:
+**24.7% match rate** because:
 
 - MusicBrainz contains many niche/independent artists
 - Wikipedia focuses on notable/mainstream artists
@@ -496,32 +433,3 @@ cat data/joined_artists_filtered.jsonl | jq 'select(.wiki_type == "band")' | jq 
 # Count by type
 cat data/joined_artists_filtered.jsonl | jq -r '.wiki_type' | sort | uniq -c
 ```
-
-### Processing Time
-
-- Wikipedia extraction: 36 minutes (25M pages)
-- Spark join: ~2 minutes
-- Filtering: <1 second
-- **Total pipeline**: ~40 minutes
-
-### Next Steps for VINF Project
-
-1. ✅ Use `data/joined_artists_filtered.jsonl` as your enriched dataset
-2. Build search index from this combined data
-3. Query both MusicBrainz metadata AND Wikipedia context
-4. Leverage Wikipedia abstracts for better search results
-5. Use categories for faceted search/filtering
-
-### Quality Assessment
-
-✅ **Excellent quality** for academic research
-
-- 99.6% accuracy after filtering
-- 2,158 verified artist/band matches
-- Rich metadata from both sources
-- Clean, structured JSONL format
-
----
-
-**Generated**: November 13, 2025
-**Project**: VINF Music Entity Extraction & Matching
