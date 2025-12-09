@@ -245,9 +245,7 @@ def main():
     print("Supported Queries:")
     print(" - Boolean: rock AND metal")
     print(" - Phrase: \"The Beatles\"")
-    print(" - Fuzzy: Beatles~")
-    print(" - Range: founded_in:[1990 TO 2000]")
-    print(" - Field: name:Nirvana")
+    print(" - Fuzzy: Beatle~")
     
     while True:
         query = input("\nEnter query (or 'exit'): ").strip()
